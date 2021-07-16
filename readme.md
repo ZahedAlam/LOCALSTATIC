@@ -1,0 +1,3 @@
+# LocalStatic
+
+## Project Name: Localy
