@@ -17,18 +17,18 @@
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-warning">
-        <div class="container-fluid">
+        <div class="container">
           
           <div class="col-3">
-            <a class="navbar-brand text-dark px-3" href="#">LOCALY</a> 
+            <a class="navbar-brand text-dark px-md-3" href="#">LOCALY</a> 
           </div>
           <div class="col-6">      
-            <form class="w-100">
+            <form class="w-auto">
               <input type="search" class="form-control  text-center" placeholder="Search" aria-label="Search">
             </form>
           </div>
           <div class="col-2" >
-            <button class="bg-warning border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <button class="bg-warning border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
             <span class="navbar-toggler-icon pt-3"></span>  MENU
             </button>
           </div>
@@ -42,15 +42,6 @@
       <div class=" pt-4 mt-5">
         <div class="row">
           <div class="col-3">
-            <div class="collapse navbar-collapse" id="navmenu">
-              <ul class="navbar-nav border text-center bg-light">
-                <li class="nav-item"><a href="#" class="nav-link text-warning"><i class="icofont-baby-food"></i> Baby</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-warning"><i class="icofont-woman-in-glasses"></i> Ladies</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Man</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Groceries</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Essentials</a></li>
-              </ul>
-            </div>
           </div>
           <div class="col-7"></div>
           <div class="col-2">
@@ -59,6 +50,21 @@
                 <li class="nav-item"><a href="#" class="nav-link">Cart</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
               </ul>
+            </div>
+            <div class="w-25 offcanvas offcanvas-end bg-warning tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel text-uppercase text-warning">LOCALY</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body small">
+                <ul class="navbar-nav text-start">
+                  <li class="nav-item"><a href="#" class="nav-link"><i class="icofont-baby-food"></i> Baby</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link"><i class="icofont-woman-in-glasses"></i> Ladies</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Man</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Groceries</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Essentials</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -97,7 +103,7 @@
         </div>
 
         <!-- Top There Cards Goes Here  -->
-        <div class="row mt-5">
+        <!-- <div class="row mt-5">
           <div class="col-4">
             <div class="card h-100">
               <div class="card-body text-center">
@@ -128,10 +134,22 @@
               </div>
             </div>
           </div>
+        </div> -->
+
+        <div class="row my-2 py-4 text-center">
+          <div class="col">
+            <div class=""><i class="bi bi-alarm display-1 text-warning"></i> <br> <br> <span class="text-uppercase">Delivery On time</span></div>
+          </div>
+          <div class="col">
+            <div class=""><i class="bi bi-emoji-smile display-1 text-warning"></i> <br> <br> <span class="text-uppercase">Happy Client</span></div>
+          </div>
+          <div class="col">
+            <div class=""><i class="bi bi-shield-check display-1 text-warning"></i> <br> <br> <span class="text-uppercase">Best Quality</span></div>
+          </div>
         </div>
 
         <!-- Product Offers Carousal  -->
-        <div class="row mt-5 pt-5">
+        <div class="row mt-3 pt-3">
           <div id="carouselProductOffer" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                     <!-- First 4 product  -->
