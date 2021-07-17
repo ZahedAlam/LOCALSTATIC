@@ -1,7 +1,17 @@
+.text-third {
+  color: #9CABA0;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
 
-.main {
+.footer {
+  margin-top: 10%;
   margin-bottom: 15%;
+}
+
+.footer ul li {
+  list-style: none;
+  padding: auto;
 }

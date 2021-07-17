@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Links -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="./Style/Font/icofont/icofont.min.css">
-  <link rel="stylesheet" href="./Style/Font/bootstrap-icons.css">
-  <link rel="stylesheet" href="./Style/style.css">
+  <link rel="stylesheet" href="/Style/Font/icofont/icofont.min.css">
+  <link rel="stylesheet" href="/Style/Font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/Style/style.min.css">
 
   <title>Localy - Welcome</title>
 </head>
@@ -38,7 +38,7 @@
     </header>
     <!-- Header Section End Here -->
   
-    <section class="main">
+    <section>
       <div class=" pt-4 mt-5">
         <div class="row">
           <div class="col-3">
@@ -261,10 +261,11 @@
       </div>
 
       <!-- Category Section  -->
-        <div class="row mt-5 pt-5">
+        <div class="row mt-5 ">
           <div class="col border-bottom border-warning"><h1>BABY</h1></div>
+          <div class="col text-end"><a href="#" class="btn btn-warning stretched-link" >View All Items</a></div>
         </div>
-        <div class="row mt-5 pt-5">
+        <div class="row mt-1 pt-1">
           <div class="row row-cols-2 row-cols-sm-3 g-2">
             <div class="col">
               <div class="card h-100">
@@ -272,11 +273,14 @@
                 <div class="card-body">
                   <h5 class="card-title">Product title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-                  <p class="card-text border-top">Price: </p>
-                  <p class="card-text border-top">Stock: </p>
-                  <button class="">Add to Bag</button>
-                  <p class="card-footer border-top border-warning"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <!-- <p class="card-footer border-top border-warning mt-1"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price: </li>
+                  <li class="list-group-item">Stock: </li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="#"  class="btn btn-warning">Add to Bag</a>
                 </div>
               </div>
             </div>
@@ -286,36 +290,46 @@
                 <div class="card-body">
                   <h5 class="card-title">Product title</h5>
                   <p class="card-text">Description: This is a short card.</p>
-                  <p class="card-text border-top">Price: </p>
-                  <p class="card-text border-top">Stock: </p>
-                  <button class="">Add to Bag</button>
-                  <p class="card-footer border-top border-warning"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price: </li>
+                  <li class="list-group-item">Stock: </li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="#"  class="btn btn-warning">Add to Bag</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="./Image/IMG/baby/the-female-company-Z3WFX9qzX8U-unsplash.jpeg" class="card-img-top" alt="...">
+                <img src="./Image/IMG/baby/meena3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Product title</h5>
                   <p class="card-text">Description: This is a short card.</p>
-                  <p class="card-text border-top">Price: </p>
-                  <p class="card-text border-top">Stock: </p>
-                  <button class="">Add to Bag</button>
-                  <p class="card-footer border-top border-warning"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
-              </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price: </li>
+                  <li class="list-group-item">Stock: </li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="#"  class="btn btn-warning">Add to Bag</a>
+                </div>
+  
+            </div>
             </div>
             <div class="col">
               <div class="card h-100">
                 <img src="./Image/IMG/baby/meena4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Product title</h5>
-                  <p class="card-text">Description: This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                  <p class="card-text border-top">Price: </p>
-                  <p class="card-text border-top">Stock: </p>
-                  <button class="">Add to Bag</button>
-                  <p class="card-footer border-top border-warning"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <p class="card-text">Description: This is a longer card wipe </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price: </li>
+                  <li class="list-group-item">Stock: </li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="#"  class="btn btn-warning">Add to Bag</a>
                 </div>
               </div>
             </div>
@@ -324,11 +338,14 @@
                 <img src="./Image/IMG/baby/meena5.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Product title</h5>
-                  <p class="card-text">Description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text border-top">Price: </p>
-                  <p class="card-text border-top">Stock: </p>
-                  <button class="">Add to Bag</button>
-                  <p class="card-footer border-top border-warning"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <p class="card-text">Description: This ditional content. This content is a little bit longer.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price: </li>
+                  <li class="list-group-item">Stock: </li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="#"  class="btn btn-warning">Add to Bag</a>
                 </div>
               </div>
             </div>
@@ -337,30 +354,63 @@
                 <img src="./Image/IMG/baby/meena6.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Product title</h5>
-                  <p class="card-text">Description: This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text border-top">Price: </p>
-                  <p class="card-text border-top">Stock: </p>
-                  <button class="">Add to Bag</button>
-                  <p class="card-footer border-top border-warning"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <p class="card-text">Description: This ditional content. This content is a little bit longer.</p>
+                
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price: </li>
+                  <li class="list-group-item">Stock: </li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="#"  class="btn btn-warning">Add to Bag</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-  
-    <!-- Footer Section -->
-    <footer class="footer mt-auto my-2py-1 bg-light fixed-bottom border-top border-warning">
-      <div class="container text-center">
-        <div class="row">
-          <ul class="nav justify-content-center">
-            <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-bounding-box h3"></i></a>Login</li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-geo-alt h3"></i></a>Location</li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-basket h3"></i></a>Basket</li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-chat-square-dots h3"></i></a>Chat</li>
+    </section>
+    
+    <section class="footer">
+      <div class="row">
+        <div class="col-4">
+          <h5 class="text-center text-warning">Contact</h5>
+          <p class="text-center"><i class="bi bi-geo-alt h3 text-warning"></i> House: 44, Road: 16 (27 Old)<br/> Dhanmondi, Dhaka - 1209, Bangladesh
+          </p>
+          <ul class="ps-5">
+            <li><a href="#" class="btn"><i class="bi bi-telephone h3 text-warning"></i> <span class="h4">09678666111</span></a></li>
+            <li><a href="#" class="btn"><i class="bi bi-envelope h3 text-warning"></i><span class="h5"> care@localy.com.bd</span></a></li>
+            <li><a href="#" class="btn"><i class="bi bi-rss h3 text-warning"></i><span class="h5"> blog.@localy.com.bd</span></a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h5 class="text-center text-warning">Customer Services</h5>
+          <ul class="pt-2">
+            <li><a href="#" class="btn">Shipping Policy</a></li>
+            <li><a href="#" class="btn">Refund Policy</a></li>
+            <li><a href="#" class="btn">Terms and Conditions</a></li>
+            <li><a href="#" class="btn">Privacy Policy</a></li>
+            <li><a href="#" class="btn">Promotions and Coupon</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h5 class="text-center text-warning">Get in Touch</h5>
+          <ul class="text-center pt-2">
+            <li class="d-inline p-2"><i class="bi bi-facebook h2 text-warning"></i></li>
+            <li class="d-inline p-2"><i class="bi bi-youtube h2 text-warning"></i></li>
+            <li class="d-inline p-2"><i class="bi bi-twitter h2 text-warning"></i></li>
           </ul>
         </div>
       </div>
+    </section>
+  
+    <!-- Footer Section -->
+    <footer  class="mt-auto my-2 py-1 bg-light fixed-bottom border-top v class="row">
+          <ul class="nav justify-content-center">
+            <li class="nav-item text-center"><a href="#" class="nav-link"><i class="bi bi-person-bounding-box h3 text-warning"></i></a>Login</li>
+            <li class="nav-item text-center"><a href="#" class="nav-link"><i class="bi bi-geo-alt h3 text-warning"></i></a>Location</li>
+            <li class="nav-item text-center"><a href="#" class="nav-link"><i class="bi bi-basket h3 text-warning"></i></a>Basket</li>
+            <li class="nav-item text-center"><a href="#" class="nav-link"><i class="bi bi-chat-square-dots h3 text-warning"></i></a>Chat</li>
+          </ul>
     </footer> 
   </div>
 
